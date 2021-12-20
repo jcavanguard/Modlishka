@@ -15,11 +15,11 @@
 package main
 
 import (
-	"github.com/drk1wi/Modlishka/config"
-	"github.com/drk1wi/Modlishka/core"
-	"github.com/drk1wi/Modlishka/log"
-	"github.com/drk1wi/Modlishka/plugin"
-	"github.com/drk1wi/Modlishka/runtime"
+	"github.com/GoVanguard/Modlishka/config"
+	"github.com/GoVanguard/Modlishka/core"
+	"github.com/GoVanguard/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/plugin"
+	"github.com/GoVanguard/Modlishka/runtime"
 )
 
 type Configuration struct{ config.Options }

@@ -15,8 +15,8 @@
 package plugin
 
 import (
-	"github.com/drk1wi/Modlishka/log"
-	"github.com/drk1wi/Modlishka/runtime"
+	"github.com/GoVanguard/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/runtime"
 	"net/http"
 	"strings"
 )

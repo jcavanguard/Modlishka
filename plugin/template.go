@@ -16,8 +16,8 @@ package plugin
 
 import (
 	"encoding/json"
-	"github.com/drk1wi/Modlishka/config"
-	"github.com/drk1wi/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/config"
+	"github.com/GoVanguard/Modlishka/log"
 	"io/ioutil"
 	"net/http"
 	"os"

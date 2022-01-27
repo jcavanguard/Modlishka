@@ -26,12 +26,12 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/drk1wi/Modlishka/config"
-	"github.com/drk1wi/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/config"
+	"github.com/GoVanguard/Modlishka/log"
 )
 
 // Paste your CA certificate and key in the following format
-// Ref: https://github.com/drk1wi/Modlishka/wiki/Quickstart-tutorial
+// Ref: https://github.com/GoVanguard/Modlishka/wiki/Quickstart-tutorial
 
 const CA_CERT = `-----BEGIN CERTIFICATE-----
 MIIDazCCAlOgAwIBAgIUF9QV8yUoWNwnT41a00mvB0PeVnIwDQYJKoZIhvcNAQEL

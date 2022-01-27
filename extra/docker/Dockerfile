@@ -2,7 +2,7 @@ FROM golang:alpine
 
 MAINTAINER Krzysztof Bednarczyk <admin@bordeux.net>
 
-ENV MODLISHKA_REPOSITORY="github.com/drk1wi/Modlishka"
+ENV MODLISHKA_REPOSITORY="github.com/GoVanguard/Modlishka"
 ENV INSTALL_PACKAGES="git make gcc musl-dev"
 ENV PROJECT_DIR="${GOPATH}/src/${MODLISHKA_REPOSITORY}"
 ENV MODLISHKA_BIN="/bin/proxy"

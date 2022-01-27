@@ -2,7 +2,7 @@ package runtime
 
 import (
 	"encoding/base64"
-	"github.com/drk1wi/Modlishka/config"
+	"github.com/GoVanguard/Modlishka/config"
 	"golang.org/x/net/publicsuffix"
 	"log"
 	"regexp"

@@ -22,7 +22,7 @@ import (
 	"strings"
 
 	"github.com/cespare/go-smaz"
-	"github.com/drk1wi/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/log"
 	"github.com/manifoldco/go-base32"
 )
 

@@ -20,10 +20,10 @@ import (
 	"crypto/x509"
 	"errors"
 	"fmt"
-	"github.com/drk1wi/Modlishka/config"
-	"github.com/drk1wi/Modlishka/log"
-	"github.com/drk1wi/Modlishka/plugin"
-	"github.com/drk1wi/Modlishka/runtime"
+	"github.com/GoVanguard/Modlishka/config"
+	"github.com/GoVanguard/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/plugin"
+	"github.com/GoVanguard/Modlishka/runtime"
 	"net"
 	"net/http"
 	"strconv"
@@ -209,7 +209,7 @@ func RunServer() {
 %s
 
 >>>> "Modlishka" Reverse Proxy started - v.1.1 <<<<
-Author: Piotr Duszynski @drk1wi  
+Author: Piotr Duszynski @GoVanguard  
 `, runtime.Banner)
 
 	if *ServerRuntimeConfig.ForceHTTP  {

@@ -15,10 +15,10 @@
 package main
 
 import (
-	"github.com/drk1wi/Modlishka/config"
-	"github.com/drk1wi/Modlishka/log"
-	"github.com/drk1wi/Modlishka/plugin"
-	"github.com/drk1wi/Modlishka/runtime"
+	"github.com/GoVanguard/Modlishka/config"
+	"github.com/GoVanguard/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/plugin"
+	"github.com/GoVanguard/Modlishka/runtime"
 	"io/ioutil"
 	"math/rand"
 	"os"
@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/drk1wi/Modlishka/core"
+	"github.com/GoVanguard/Modlishka/core"
 
 	"golang.org/x/net/publicsuffix"
 )
@@ -482,3 +482,4 @@ func TestJSONConfig(t *testing.T) {
 	plugin.SetPluginRuntimeConfig(conf.Options)
 
 }
+

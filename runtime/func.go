@@ -2,7 +2,7 @@ package runtime
 
 import (
 	"fmt"
-	"github.com/drk1wi/Modlishka/log"
+	"github.com/GoVanguard/Modlishka/log"
 	"github.com/miekg/dns"
 	"net/url"
 	"regexp"
